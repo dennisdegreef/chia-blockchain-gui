@@ -3,7 +3,7 @@ import path from 'path';
 import url from 'url';
 import os from 'os';
 import openAboutWindow from 'about-window';
-//handle setupevents as quickly as possible
+// handle setupevents as quickly as possible
 import '../config/env';
 import handleSquirrelEvent from './handleSquirrelEvent';
 import config from '../config/config';
