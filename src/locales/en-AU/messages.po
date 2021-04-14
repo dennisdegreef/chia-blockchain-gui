@@ -34,8 +34,8 @@ msgstr "128 buckets is recommended"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr "About Chia Blockchain"
 
@@ -75,7 +75,7 @@ msgstr "Add Plot Directory"
 msgid "Add Plot to Queue"
 msgstr "Add Plot to Queue"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "Add Wallet"
 
@@ -135,7 +135,7 @@ msgstr "Are you sure you want to delete the plot? The plot cannot be recovered, 
 msgid "Are you sure you want to disconnect?"
 msgstr "Are you sure you want to disconnect?"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "Are you sure you want to quit? GUI Plotting and farming will stop, and no more beer money will be earned."
 
@@ -230,7 +230,7 @@ msgstr "But you are currently farming <0/>"
 msgid "Buy"
 msgstr "Buy"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "CC Wallet"
 
@@ -267,19 +267,19 @@ msgstr "Challenge"
 msgid "Challenge Hash"
 msgstr "Challenge Hash"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr "Chat on KeyBase with the cool kids"
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr "Chia Blockchain Wiki"
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "Chia Wallet with my future beer money"
 
@@ -329,7 +329,7 @@ msgstr "Coloured Coin"
 msgid "Coloured Coin Options"
 msgstr "Coloured Coin Options"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "You ripper"
 
@@ -380,7 +380,7 @@ msgstr "Connection type"
 msgid "Connections"
 msgstr "Connections"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr "Contribute on GitHub"
 
@@ -491,7 +491,7 @@ msgstr "Current trade status"
 msgid "DANGER: permanently delete private key"
 msgstr "DANGER: this permanently deletes private key"
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "DID Wallet"
 
@@ -541,11 +541,11 @@ msgstr "Deleting all keys will permanently remove the keys from your computer, m
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "Developer"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "Developer Tools"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "Difficulty"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr "Drag and drop your backup file"
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "Edit"
 
@@ -715,8 +715,8 @@ msgstr "Fees Amount"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "File"
 
@@ -735,11 +735,11 @@ msgstr "Final folder location"
 msgid "Finished"
 msgstr "Finished"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Follow on Twitter"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
@@ -752,7 +752,7 @@ msgstr "Full Node"
 msgid "Full Node Status"
 msgstr "Full Node Status"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr "Full Screen"
 
@@ -782,7 +782,7 @@ msgstr "Header hash"
 msgid "Height"
 msgstr "Height"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr "Help me Jebus"
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "Nickname"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "Yeh nah"
 
@@ -1235,6 +1235,10 @@ msgstr "Plotting"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Pool Key"
@@ -1326,7 +1330,7 @@ msgstr "Queued"
 msgid "RAM max usage"
 msgstr "RAM max usage"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr "RL Wallet"
 
@@ -1364,7 +1368,7 @@ msgstr "Recover DID wallet"
 msgid "Refresh Plots"
 msgstr "Refresh Plots"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr "Release Notes"
 
@@ -1372,7 +1376,7 @@ msgstr "Release Notes"
 msgid "Rename"
 msgstr "Rename"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr "Report an Issue..."
 
@@ -1505,7 +1509,7 @@ msgstr "Sign In"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr ""
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr "Speech"
 
@@ -1549,7 +1553,7 @@ msgstr "State"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "Status"
 
@@ -1838,7 +1842,7 @@ msgstr "User Pubkey"
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF Sub Slot Iterations"
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr "View"
 
@@ -1904,7 +1908,7 @@ msgstr "Wait for synchronization"
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "Wallets"
 
@@ -1940,7 +1944,7 @@ msgstr "Welcome! The following words are used for your wallet backup. Without th
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr "Window"
 
@@ -1950,7 +1954,7 @@ msgstr "Without fees"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "You ripper"
 
@@ -1986,32 +1990,36 @@ msgstr "Your Full Node Connection"
 msgid "Your Harvester Network"
 msgstr "Your Harvester Network"
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "connections:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "height:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "not synced"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "status:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "synced"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "syncing"
 

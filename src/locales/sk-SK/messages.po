@@ -34,8 +34,8 @@ msgstr ""
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Kombajn je služba bežiaca na stroji, kde sú uložené polia. Farmár a kombajn komunikujú s plným uzlom, aby zistili stav reťaze. Nižšie si pozrite svoju sieť prepojených kombajnov. Viac informácií"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr ""
 
@@ -75,7 +75,7 @@ msgstr "Pridať adresár polí"
 msgid "Add Plot to Queue"
 msgstr "Pridať pole do fronty"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "Pridať peňaženku"
 
@@ -135,7 +135,7 @@ msgstr "Naozaj chcete odstrániť pole? Pole nie je možné obnoviť."
 msgid "Are you sure you want to disconnect?"
 msgstr "Naozaj sa chcete odpojiť?"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Buy"
 msgstr "Kúpiť"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "CC peňaženka"
 
@@ -267,19 +267,19 @@ msgstr "Výzva"
 msgid "Challenge Hash"
 msgstr "Hash výzvy"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr ""
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr ""
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "Chia peňaženka"
 
@@ -329,7 +329,7 @@ msgstr "Farebná minca"
 msgid "Coloured Coin Options"
 msgstr "Možnosti farebných mincí"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "Potvrdiť"
 
@@ -380,7 +380,7 @@ msgstr "Typ pripojenia"
 msgid "Connections"
 msgstr "Pripojenia"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr ""
 
@@ -491,7 +491,7 @@ msgstr "Aktuálny stav obchodu"
 msgid "DANGER: permanently delete private key"
 msgstr ""
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "DID peňaženka"
 
@@ -541,11 +541,11 @@ msgstr "Po stlačení tlačidla zmazať odstránite natrvalo všetký kľúče z
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Odstránením kľúča natrvalo odstránite kľúč z počítača. Uistite sa, že máte zálohy. Ste si istý, že chcete pokračovať?"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "Vývojár"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "Nástroje pre vývojárov"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "Zložitosť"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr ""
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr ""
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "Upraviť"
 
@@ -715,8 +715,8 @@ msgstr "Množstvo odmeny"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "Súbor"
 
@@ -735,11 +735,11 @@ msgstr "Cieľový adresár"
 msgid "Finished"
 msgstr "Dokončené"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Sledujte na twitteri"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky (FAQ)"
 
@@ -752,7 +752,7 @@ msgstr "Domov"
 msgid "Full Node Status"
 msgstr "Stav siete"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr ""
 
@@ -782,7 +782,7 @@ msgstr "Poradie hlavičky"
 msgid "Height"
 msgstr "Poradie"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr ""
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "Prezývka"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "Nie"
 
@@ -1235,6 +1235,10 @@ msgstr "Vytváranie poľa"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Paralelné vytváranie polí môže ušetriť čas. V opačnom prípade sa pridá do frontu."
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Kľúč k poľu"
@@ -1326,7 +1330,7 @@ msgstr "V poradí"
 msgid "RAM max usage"
 msgstr "Maximálne využitie RAM"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr ""
 
@@ -1364,7 +1368,7 @@ msgstr ""
 msgid "Refresh Plots"
 msgstr "Obnoviť polia"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr ""
 
@@ -1372,7 +1376,7 @@ msgstr ""
 msgid "Rename"
 msgstr "Premenovať"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr ""
 
@@ -1505,7 +1509,7 @@ msgstr "Prihlásiť sa"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr ""
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr ""
 
@@ -1549,7 +1553,7 @@ msgstr "Stav"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "Stav"
 
@@ -1838,7 +1842,7 @@ msgstr "Používateľov verejný kľúč"
 msgid "VDF Sub Slot Iterations"
 msgstr ""
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr ""
 
@@ -1904,7 +1908,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "Peňaženky"
 
@@ -1940,7 +1944,7 @@ msgstr "Vitajte! Pre zálohovanie vašej peňaženky sa používajú nasledujúc
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr ""
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr ""
 
@@ -1950,7 +1954,7 @@ msgstr "Bez poplatkov"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "Áno"
 
@@ -1986,32 +1990,36 @@ msgstr "Vaše pripojenie k sieti"
 msgid "Your Harvester Network"
 msgstr ""
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "pripojenia:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "pozícia:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "nesynchronizované"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "stav:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "synchronizované"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "synchronizácia"
 

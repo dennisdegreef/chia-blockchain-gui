@@ -34,8 +34,8 @@ msgstr "バケツ数は 128 がおすすめ"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "収穫機は耕地が実際に保存されているデバイス上に走らせるサービスです。農家と収穫機はフルノードと通信することでブロックチェーンの状態を認識します。以下が接続されている収穫機ネットワークです。詳しく"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr "チアブロックチェーンについて"
 
@@ -75,7 +75,7 @@ msgstr "耕地ディレクトリを追加"
 msgid "Add Plot to Queue"
 msgstr "耕地をキューに追加"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "ウォレット追加"
 
@@ -135,7 +135,7 @@ msgstr "本当にこの耕地を削除しますか？耕地は削除すると復
 msgid "Are you sure you want to disconnect?"
 msgstr "本当に接続を解除しますか？"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "本当に終了しますか？ GUI 上の耕地作り及び耕作も停止します。"
 
@@ -230,7 +230,7 @@ msgstr "しかし、現在 <0/> で耕作中です。"
 msgid "Buy"
 msgstr "購入"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "CC ウォレット"
 
@@ -267,19 +267,19 @@ msgstr "チャレンジ"
 msgid "Challenge Hash"
 msgstr "チャレンジのハッシュ値"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr "Keybase でチャット"
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "チア"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr "チアブロックチェーンの Wiki"
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "チアウォレット"
 
@@ -329,7 +329,7 @@ msgstr "カラードコイン"
 msgid "Coloured Coin Options"
 msgstr "カラードコインのオプション"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "了承"
 
@@ -380,7 +380,7 @@ msgstr "接続の種類"
 msgid "Connections"
 msgstr "接続数"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr "GitHub で開発協力"
 
@@ -491,7 +491,7 @@ msgstr "現在の交換状態"
 msgid "DANGER: permanently delete private key"
 msgstr "！危険！: 秘密鍵を永久的に削除"
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "DID ウォレット"
 
@@ -541,11 +541,11 @@ msgstr "全ての鍵を削除するとどれも復元することができなく
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "鍵を削除すると復元することができませんので、必ずバックアップを取ってください。本当に続行しますか？"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "開発者"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "開発者向けツール"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "難易度"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr "ビットフィールドを有効にすると書き込み量が 20% ほど減少します。一時ディレクトリが SSD などの速いストレージ上にある場合、または RAM の使用量を抑えたい場合は、ビットフィールドを使わずに耕すことをおすすめします。"
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr "ビットフィールドを有効にすると書き込み量が 20% ほど減少します。一時ディレクトリが SSD などの速いストレージ上にある場合、または RAM の使用量を抑えたい場合は、ビットフィールドを使わずに耕すことをおすすめします。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr "バックアップファイルをここにドラッグ&ドロップ"
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "編集"
 
@@ -715,8 +715,8 @@ msgstr "全手数料"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "ファイル"
 
@@ -735,11 +735,11 @@ msgstr "最終フォルダの場所"
 msgid "Finished"
 msgstr "完成"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Twitter でフォロー"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "よくある質問"
 
@@ -752,7 +752,7 @@ msgstr "フルノード"
 msgid "Full Node Status"
 msgstr "フルノードの状態"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr "全画面表示"
 
@@ -782,7 +782,7 @@ msgstr "ヘッダーのハッシュ値"
 msgid "Height"
 msgstr "高さ"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr "ヘルプ"
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "ニックネーム"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "いいえ"
 
@@ -1235,6 +1235,10 @@ msgstr "耕し中"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "並行で耕すと時間の節約になる場合があります。スペックが足りない場合はキューに追加してください。"
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "プール鍵"
@@ -1326,7 +1330,7 @@ msgstr "順番待ち"
 msgid "RAM max usage"
 msgstr "最大使用 RAM"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr "RL ウォレット"
 
@@ -1364,7 +1368,7 @@ msgstr "DID ウォレットを復元"
 msgid "Refresh Plots"
 msgstr "耕地一覧を更新"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr "リリースノート"
 
@@ -1372,7 +1376,7 @@ msgstr "リリースノート"
 msgid "Rename"
 msgstr "名称変更"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr "問題を報告"
 
@@ -1505,7 +1509,7 @@ msgstr "ログイン"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "最終ディレクトリを収穫機に追加せず、ディレクトリ内の耕地で耕作しません。"
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr "スピーチ"
 
@@ -1549,7 +1553,7 @@ msgstr "状態"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "状態"
 
@@ -1838,7 +1842,7 @@ msgstr "ユーザー公開鍵"
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF サブスロット評価回数"
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr "表示"
 
@@ -1904,7 +1908,7 @@ msgstr "同期待ち"
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "ウォレット"
 
@@ -1940,7 +1944,7 @@ msgstr "ご利用ありがとうございます！以下の合言葉はあなた
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "管理者からセットアップ用の情報パケットを受け取ったら、以下に入力してレート制限付きウォレットのセットアップを完了してください:"
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr "ウィンドウ"
 
@@ -1950,7 +1954,7 @@ msgstr "手数料抜き"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "はい"
 
@@ -1986,32 +1990,36 @@ msgstr "あなたのフルノード接続"
 msgid "Your Harvester Network"
 msgstr "あなたの収穫機ネットワーク"
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "接続数:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "高さ:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "同期されていません"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "状態:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "同期完了"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "同期中"
 

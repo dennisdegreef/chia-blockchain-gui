@@ -34,8 +34,8 @@ msgstr "Se recomiendan 128 cubos"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Un cosechador es un servicio que se ejecuta en una máquina en donde actualmente se almacena(n) la(s) parcela(s). Un agricultor y un cosechador hablan con un nodo completo para ver el estado de la cadena. Vea su red de cosechadoras conectadas a continuación Más información"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr "Acerca de Chia Blockchain"
 
@@ -75,7 +75,7 @@ msgstr "Añadir Directorio de Parcela"
 msgid "Add Plot to Queue"
 msgstr "Añadir Parcela a la Cola"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "Añadir Monedero"
 
@@ -135,7 +135,7 @@ msgstr "¿Está seguro de que desea eliminar la parcela? La parcela no se puede 
 msgid "Are you sure you want to disconnect?"
 msgstr "¿Estás seguro de que te quieres desconectar?"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "¿Está seguro que quiere salir? Sembrar y Cultivar en el GUI se detendrán."
 
@@ -230,7 +230,7 @@ msgstr "Pero actualmente estás cultivando <0 />"
 msgid "Buy"
 msgstr "Comprar"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "Monedero CC"
 
@@ -267,19 +267,19 @@ msgstr "Desafío"
 msgid "Challenge Hash"
 msgstr "Desafío Hash"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr "Chatear en Keybase"
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr "Wiki de Cadena de Bloques Chia"
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "Monedero Chia"
 
@@ -329,7 +329,7 @@ msgstr "Moneda de Color"
 msgid "Coloured Coin Options"
 msgstr "Opciones de Moneda de Color"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -380,7 +380,7 @@ msgstr "Tipo de Conexión"
 msgid "Connections"
 msgstr "Conexiones"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr "Contribuir en GitHub"
 
@@ -491,7 +491,7 @@ msgstr "Estado actual de la operación"
 msgid "DANGER: permanently delete private key"
 msgstr "ADVERTENCIA: eliminar llave privada permanentemente"
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "Monedero DID"
 
@@ -541,11 +541,11 @@ msgstr "Borrar todas las llaves eliminará permanentemente las llaves de su orde
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Borrar la llave eliminará permanentemente la llave de su ordenador, asegurase de tener una copia de seguridad. ¿Está seguro de que quiere continuar?"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "Desarrollador"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "Herramientas de Desarrollador"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "Dificultad"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr "Des-habilite sembrado de bitfield cuando su directorio temporal está en un disco rápido como un SSD o necesite reducir los requerimientos de RAM de los procesos. Sembrar con bitfield habilitado tiene aproximadamente 20% menos escrituras."
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr "Des-habilite sembrado de bitfield cuando su directorio temporal está en un disco rápido como un SSD o necesite reducir los requerimientos de RAM de los procesos. Sembrar con bitfield habilitado tiene aproximadamente 20% menos escrituras."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr "Arrastra y suelta tu archivo de respaldo"
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "Editar"
 
@@ -715,8 +715,8 @@ msgstr "Monto de tarifas"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "Archivo"
 
@@ -735,11 +735,11 @@ msgstr "Ubicación de la Carpeta Final"
 msgid "Finished"
 msgstr "Finalizado"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Seguir en Twitter"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "Preguntas Frecuentes"
 
@@ -752,7 +752,7 @@ msgstr "Nodo Completo"
 msgid "Full Node Status"
 msgstr "Estado de Nodo Completo"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr "Pantalla Completa"
 
@@ -782,7 +782,7 @@ msgstr "Encabezado de hash"
 msgid "Height"
 msgstr "Altura"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr "Ayuda"
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "Apodo"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "No"
 
@@ -1235,6 +1235,10 @@ msgstr "Sembrando"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Sembrar en paralelo puede ahorrar tiempo. De lo contrario, agregue la(s) parcela(s) a la cola."
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Llave de Conjunto"
@@ -1326,7 +1330,7 @@ msgstr "En cola"
 msgid "RAM max usage"
 msgstr "Uso Máximo de RAM"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr "Monedero RL"
 
@@ -1364,7 +1368,7 @@ msgstr "Recuperar Monedero DID"
 msgid "Refresh Plots"
 msgstr "Actualizar Parcelas"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr "Notas de lanzamiento"
 
@@ -1372,7 +1376,7 @@ msgstr "Notas de lanzamiento"
 msgid "Rename"
 msgstr "Renombrar"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr "Reportar un problema..."
 
@@ -1505,7 +1509,7 @@ msgstr "Iniciar Sesión"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr ""
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr "Habla"
 
@@ -1549,7 +1553,7 @@ msgstr "Estado"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "Estado"
 
@@ -1838,7 +1842,7 @@ msgstr "Llave Pública de Usuario"
 msgid "VDF Sub Slot Iterations"
 msgstr "Iteraciones VDF Sub Slot"
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr "Vista"
 
@@ -1904,7 +1908,7 @@ msgstr "Esperar sincronización"
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "Monederos"
 
@@ -1940,7 +1944,7 @@ msgstr "¡Bienvenido! Las siguientes palabras se utilizan para la copia de segur
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Cuando reciba el paquete de información de configuración de su administrador, ingréselo a continuación para completar la configuración de su Monedero con Tarifa Limitada:"
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr "Ventana"
 
@@ -1950,7 +1954,7 @@ msgstr "Sin tarifas"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "Sí"
 
@@ -1986,32 +1990,36 @@ msgstr "Su Conexión de Nodo Completo"
 msgid "Your Harvester Network"
 msgstr "Su Red de Cosechadores"
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "conexiones:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "altura:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "no sincronizado"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "estado:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "sincronizado"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "sincronizando"
 

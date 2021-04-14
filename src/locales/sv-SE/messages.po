@@ -34,8 +34,8 @@ msgstr "128 buckets rekommenderas"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "En skördare är en tjänst som körs på en maskin där plottar lagras. En odlare och skördare kommunicerar med en fullständig nod för att läsa blockkedjans tillstånd. Du kan se ditt nätverk av anslutna skördare nedan Läs mer"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr "Om Chia Blockchain"
 
@@ -75,7 +75,7 @@ msgstr "Lägg till mapp med plottar"
 msgid "Add Plot to Queue"
 msgstr "Lägg till plott i kön"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "Lägg till plånbok"
 
@@ -135,7 +135,7 @@ msgstr "Är det säkert att du vill ta bort plotten? Den kan inte återställas.
 msgid "Are you sure you want to disconnect?"
 msgstr "Är det säkert att du vill koppla ifrån?"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "Är det säkert att du vill stänga av? Plottning och odling i GUI kommer att stoppas."
 
@@ -230,7 +230,7 @@ msgstr "Men för tillfället odlar du <0/>"
 msgid "Buy"
 msgstr "Köp"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "CC-plånbok"
 
@@ -267,19 +267,19 @@ msgstr "Verifiering"
 msgid "Challenge Hash"
 msgstr "Verifieringshash"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr "Chatta på KeyBase"
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr "Chia Blockchains wiki"
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "Chia-plånbok"
 
@@ -329,7 +329,7 @@ msgstr "Färgat mynt"
 msgid "Coloured Coin Options"
 msgstr "Alternativ för färgade mynt"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "Bekräfta"
 
@@ -380,7 +380,7 @@ msgstr "Anslutningstyp"
 msgid "Connections"
 msgstr "Anslutningar"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr "Delta på GitHub"
 
@@ -491,7 +491,7 @@ msgstr "Aktuell handelsstatus"
 msgid "DANGER: permanently delete private key"
 msgstr "VARNING: permanent ta bort privat nyckel"
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "DID-plånbok"
 
@@ -541,11 +541,11 @@ msgstr "Om du tar bort alla nycklar kommer de att permanent tas bort från dator
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Om du tar bort nyckeln kommer den att permanent tas bort från datorn. Se till att du har säkerhetskopierat den. Är det säkert att du vill fortsätta?"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "Utvecklare"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "Utvecklarverktyg"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "Svårighetsgrad"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr "Inaktivera bitfield-plottning när den tillfälliga mappen är på ett snabbt lagringsmedium som SSD, eller om du vill sänka kraven på RAM per process. Plottning med bitfield aktiverat använder generellt ungefär 20 % färre skrivningar."
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr "Inaktivera bitfield-plottning när den tillfälliga mappen är på ett snabbt lagringsmedium som SSD, eller om du vill sänka kraven på RAM per process. Plottning med bitfield aktiverat använder generellt ungefär 20 % färre skrivningar."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr "Drag och släpp din säkerhetskopierade fil"
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "Redigera"
 
@@ -715,8 +715,8 @@ msgstr "Avgiftsbelopp"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "Fil"
 
@@ -735,11 +735,11 @@ msgstr "Sökväg till slutlig mapp"
 msgid "Finished"
 msgstr "Färdigt"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Följ på Twitter"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "Vanliga frågor"
 
@@ -752,7 +752,7 @@ msgstr "Fullständig nod"
 msgid "Full Node Status"
 msgstr "Status för full nod"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr "Helskärm"
 
@@ -782,7 +782,7 @@ msgstr "Huvudhash"
 msgid "Height"
 msgstr "Höjd"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr "Hjälp"
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "Smeknamn"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "Nej"
 
@@ -1235,6 +1235,10 @@ msgstr "Plottar"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Parallell plottning kan spara tid. Lägg annars till plottar i kön."
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Pool-nyckel"
@@ -1326,7 +1330,7 @@ msgstr "I kö"
 msgid "RAM max usage"
 msgstr "Max RAM-användning"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr "RL-plånbok"
 
@@ -1364,7 +1368,7 @@ msgstr "Återställ DID-plånbok"
 msgid "Refresh Plots"
 msgstr "Uppdatera plottar"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr "Viktig information"
 
@@ -1372,7 +1376,7 @@ msgstr "Viktig information"
 msgid "Rename"
 msgstr "Byt namn"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr "Rapportera ett problem ..."
 
@@ -1505,7 +1509,7 @@ msgstr "Logga in"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Hoppar över steget att lägga till en slutlig mapp till skördaren för odling"
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr "Tal"
 
@@ -1549,7 +1553,7 @@ msgstr "Tillstånd"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "Status"
 
@@ -1838,7 +1842,7 @@ msgstr "Publik nyckel för användare"
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF-underslot-iterationer"
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr "Visa"
 
@@ -1904,7 +1908,7 @@ msgstr "Väntar på synkronisering"
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "Plånböcker"
 
@@ -1940,7 +1944,7 @@ msgstr "Välkommen! Följande ord används för din plånboks säkerhetskopia. U
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "När du fått konfigurationsinfopaketet av din administratör anger du det nedan för att slutföra konfigurationen av din spenderbegränsade plånbok:"
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr "Fönster"
 
@@ -1950,7 +1954,7 @@ msgstr "Utan avgifter"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "Ja"
 
@@ -1988,32 +1992,36 @@ msgstr "Din fullständiga nods anslutning"
 msgid "Your Harvester Network"
 msgstr "Ditt nätverk av skördare"
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "anslutningar:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "höjd:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "ej synkad"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "status:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "synkad"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "synkar"
 

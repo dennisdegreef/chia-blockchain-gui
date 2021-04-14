@@ -34,8 +34,8 @@ msgstr "128 muistilohkoa on suositusmäärä"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Harvesteri on palvelu koneella, jolle plot-tiedostot ovat tallennettu. Farmari ja harvesteri ovat yhteydessä noodiin, jolta saavat lohkoketjun tilatiedot. Katso alta yhdistetyt harvesteripalvelut"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr "Chia Lohkoketjusta"
 
@@ -75,7 +75,7 @@ msgstr "Lisää Plot-hakemisto"
 msgid "Add Plot to Queue"
 msgstr "Lisää Plottausprosessi Jonoon"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "Lisää Lompakko"
 
@@ -135,7 +135,7 @@ msgstr "Haluatko tuhota plotin? Plottia ei voi palauttaa."
 msgid "Are you sure you want to disconnect?"
 msgstr "Katkaise yhteys?"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "Haluatko lopettaa? Käyttöliittymäplottaus ja farmi sammutetaan."
 
@@ -230,7 +230,7 @@ msgstr "Mutta farmisi sisältää <0/>"
 msgid "Buy"
 msgstr "Osta"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "Värilompakko"
 
@@ -267,19 +267,19 @@ msgstr "Haaste"
 msgid "Challenge Hash"
 msgstr "Haastetiiviste"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr "Keskustele KeyBasessa"
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr "Chia Wiki"
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "Chia-lompakko"
 
@@ -329,7 +329,7 @@ msgstr "Väritetty Kolikko"
 msgid "Coloured Coin Options"
 msgstr "Värikolikon Valinnat"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "Vahvista"
 
@@ -380,7 +380,7 @@ msgstr "Yhteystyyppi"
 msgid "Connections"
 msgstr "Yhteydet"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr "Anna panoksesi GitHubissa"
 
@@ -491,7 +491,7 @@ msgstr "Kaupan tila"
 msgid "DANGER: permanently delete private key"
 msgstr "VAROITUS: tuhoaa yksityisen avaimen"
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "Hajautettu Lompakko"
 
@@ -541,11 +541,11 @@ msgstr "Avainten poisto poistaa ne tietokoneeltasi. Varmista että sinulla on va
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Avaimen poisto poistaa sen tietokoneeltasi. Varmista että sinulla on varmuuskopio. Haluatko jatkaa?"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "Kehittäjä"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "Kehitystyökalut"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "Vaikeusaste"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr "Kytke bitfield-plottaus pois, kun väliaikaishakemisto on nopealla SSD-levyllä tai kun haluat optimoida keskusmuistin kulutusta. Bitfield-plottaus kirjoittaa n. 20% vähemmän levylle ja sopii hitaille kiintolevyille."
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr "Kytke bitfield-plottaus pois, kun väliaikaishakemisto on nopealla SSD-levyllä tai kun haluat optimoida keskusmuistin kulutusta. Bitfield-plottaus kirjoittaa n. 20% vähemmän levylle ja sopii hitaille kiintolevyille."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr "Raahaa ja pudota varmuuskopiotiedosto"
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "Muokkaa"
 
@@ -715,8 +715,8 @@ msgstr "Palkkiosumma"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "Tiedosto"
 
@@ -735,11 +735,11 @@ msgstr "Lopullinen hakemisto"
 msgid "Finished"
 msgstr "Valmis"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Seuraa Twitterissä"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "Usein Kysytyt Kysymykset"
 
@@ -752,7 +752,7 @@ msgstr "Verkkonoodi"
 msgid "Full Node Status"
 msgstr "Verkkonoodin Tila"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr "Kokoruutu"
 
@@ -782,7 +782,7 @@ msgstr "Lohkotunniste"
 msgid "Height"
 msgstr "Lohkokorkeus"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr "Apuja"
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "Alias"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "Ei"
 
@@ -1235,6 +1235,10 @@ msgstr "Plotataan"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Rinnakkaisplottaus voi säästää aikaa. Muutoin lisää plottaus jonoon."
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Poolin Avain"
@@ -1326,7 +1330,7 @@ msgstr "Jonossa"
 msgid "RAM max usage"
 msgstr "RAM enimmäismäärä"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr "Rajoitettu Lompakko"
 
@@ -1364,7 +1368,7 @@ msgstr "Palauta hajautetettu lompakko"
 msgid "Refresh Plots"
 msgstr "Päivitä Plot-tiedostot"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr "Version Muutokset"
 
@@ -1372,7 +1376,7 @@ msgstr "Version Muutokset"
 msgid "Rename"
 msgstr "Nimeä Uudelleen"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr "Raportoi Ongelma..."
 
@@ -1505,7 +1509,7 @@ msgstr "Kirjaudu"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr ""
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr "Puhe"
 
@@ -1549,7 +1553,7 @@ msgstr "Tila"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "Tila"
 
@@ -1838,7 +1842,7 @@ msgstr "Käyttäjän julkinen avain"
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF -alaiteraatioita"
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr "Näkymä"
 
@@ -1904,7 +1908,7 @@ msgstr "Odota synkroinointia"
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "Lompakot"
 
@@ -1940,7 +1944,7 @@ msgstr "Tervetuloa! Seuraavia muistisanoja käytetään lompakon varmuuskopioint
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Kun saat infopaketin pääkäyttäjältä, lisää se alle viimeistelläksesi Siirtorajoitetun Lompakon asennuksen:"
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr "Ikkuna"
 
@@ -1950,7 +1954,7 @@ msgstr "Ilman veloituksia"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "Kyllä"
 
@@ -1986,32 +1990,36 @@ msgstr "Noodin Yhteys"
 msgid "Your Harvester Network"
 msgstr "Harvesteriverkkosi"
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "yhteydet:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "korkeus:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "ei synkronoitu"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "tila:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "synkronoitu"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "synkronoi"
 

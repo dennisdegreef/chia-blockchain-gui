@@ -34,8 +34,8 @@ msgstr ""
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Żniwiarz to usługa pracująca na maszynie przechowywującej działki (plots). Rolnik i żniwiarz komunikują się z pełnym węzłem (full node) sprawdzając stan blockchaina. Wyświetl swoją sieć podłączonych żniwiarzy poniżej Dowiedz się więcej"
 
-#: src/electron/main.ts:328
-#: src/electron/main.ts:410
+#: src/electron/main.ts:327
+#: src/electron/main.ts:409
 msgid "About Chia Blockchain"
 msgstr "O blockchainie Chia"
 
@@ -75,7 +75,7 @@ msgstr "Dodaj folder z działkami"
 msgid "Add Plot to Queue"
 msgstr "Dodaj działkę, plot do kolejki"
 
-#: src/components/wallet/Wallets.tsx:80
+#: src/components/wallet/Wallets.tsx:81
 msgid "Add Wallet"
 msgstr "Dodaj Portfel"
 
@@ -135,7 +135,7 @@ msgstr "Czy na pewno chcesz usunąć tę działkę? Tej działki nie będzie mo�
 msgid "Are you sure you want to disconnect?"
 msgstr "Czy na pewno chcesz rozłączyć?"
 
-#: src/electron/main.ts:127
+#: src/electron/main.ts:126
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "Czy na pewno chcesz zamknąć program? GUI Plotting i farmienie zostanią zatrzymane."
 
@@ -230,7 +230,7 @@ msgstr "Obecnie farmisz <0/>"
 msgid "Buy"
 msgstr "Kup"
 
-#: src/components/wallet/Wallets.tsx:33
+#: src/components/wallet/Wallets.tsx:34
 msgid "CC Wallet"
 msgstr "Portfel CC"
 
@@ -267,19 +267,19 @@ msgstr "Wyzwanie"
 msgid "Challenge Hash"
 msgstr "Hash wyzwania"
 
-#: src/electron/main.ts:308
+#: src/electron/main.ts:307
 msgid "Chat on KeyBase"
 msgstr "Czat na KeyBase"
 
-#: src/electron/main.ts:325
+#: src/electron/main.ts:324
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.ts:275
+#: src/electron/main.ts:274
 msgid "Chia Blockchain Wiki"
 msgstr "Wiki Blockchainu Chia"
 
-#: src/components/wallet/Wallets.tsx:29
+#: src/components/wallet/Wallets.tsx:30
 msgid "Chia Wallet"
 msgstr "Portfel Chia"
 
@@ -329,7 +329,7 @@ msgstr "Pokolorowana moneta"
 msgid "Coloured Coin Options"
 msgstr "Opcje pokolorowanej monety"
 
-#: src/electron/main.ts:125
+#: src/electron/main.ts:124
 msgid "Confirm"
 msgstr "Potwierdź"
 
@@ -380,7 +380,7 @@ msgstr "Typ połączenia"
 msgid "Connections"
 msgstr "Połączenia"
 
-#: src/electron/main.ts:293
+#: src/electron/main.ts:292
 msgid "Contribute on GitHub"
 msgstr "Współtwórz na GitHubie"
 
@@ -491,7 +491,7 @@ msgstr "Aktualny status handlu"
 msgid "DANGER: permanently delete private key"
 msgstr "NIEBEZPIECZEŃSTWO: nieodwracalnie usuń klucz prywatny"
 
-#: src/components/wallet/Wallets.tsx:47
+#: src/components/wallet/Wallets.tsx:48
 msgid "DID Wallet"
 msgstr "Portfel DID"
 
@@ -541,11 +541,11 @@ msgstr "Usunięcie wszystkich kluczy nieodwracalnie usunie je z twojego komputer
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Usunięcie klucza nieodwracalnie usunie z twojego komputera plik klucza, bądź pewien że masz kopię zapasową. Czy chcesz kontynuować?"
 
-#: src/electron/main.ts:222
+#: src/electron/main.ts:221
 msgid "Developer"
 msgstr "Developer"
 
-#: src/electron/main.ts:225
+#: src/electron/main.ts:224
 msgid "Developer Tools"
 msgstr "Narzędzia Programistyczne"
 
@@ -555,8 +555,8 @@ msgid "Difficulty"
 msgstr "Trudność"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
-msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
-msgstr ""
+#~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Drag and drop your backup file"
 msgstr "Przesuń i upuść twój plik kopii zapasowej"
 
-#: src/electron/main.ts:181
+#: src/electron/main.ts:180
 msgid "Edit"
 msgstr "Edytuj"
 
@@ -715,8 +715,8 @@ msgstr "Kwota opłaty"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.ts:173
-#: src/electron/main.ts:365
+#: src/electron/main.ts:172
+#: src/electron/main.ts:364
 msgid "File"
 msgstr "Plik"
 
@@ -735,11 +735,11 @@ msgstr "Lokalizacja folderu docelowego"
 msgid "Finished"
 msgstr "Zakończono"
 
-#: src/electron/main.ts:314
+#: src/electron/main.ts:313
 msgid "Follow on Twitter"
 msgstr "Śledź na Twitterze"
 
-#: src/electron/main.ts:281
+#: src/electron/main.ts:280
 msgid "Frequently Asked Questions"
 msgstr "Często zadawane pytania"
 
@@ -752,7 +752,7 @@ msgstr "Pełen węzeł"
 msgid "Full Node Status"
 msgstr "Stan pełnego węzła"
 
-#: src/electron/main.ts:249
+#: src/electron/main.ts:248
 msgid "Full Screen"
 msgstr "Pełny ekran"
 
@@ -782,7 +782,7 @@ msgstr "Hash Nagłówka"
 msgid "Height"
 msgstr "Wysokość"
 
-#: src/electron/main.ts:271
+#: src/electron/main.ts:270
 msgid "Help"
 msgstr "Pomoc"
 
@@ -990,7 +990,7 @@ msgid "Nickname"
 msgstr "Pseudonim"
 
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:122
+#: src/electron/main.ts:121
 msgid "No"
 msgstr "Nie"
 
@@ -1235,6 +1235,10 @@ msgstr "Generowanie działki"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Równoległe generowanie dzialek może oszczędzać czas. W przeciwnym wypadku dodaj działkę (działki) do kolejki."
 
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
+msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Klucz farmera"
@@ -1326,7 +1330,7 @@ msgstr "W kolejce"
 msgid "RAM max usage"
 msgstr "Maksymalne użycie pamięci RAM"
 
-#: src/components/wallet/Wallets.tsx:40
+#: src/components/wallet/Wallets.tsx:41
 msgid "RL Wallet"
 msgstr "Portfel RL"
 
@@ -1364,7 +1368,7 @@ msgstr "Odzyskaj portfel DID"
 msgid "Refresh Plots"
 msgstr "Odśwież działki"
 
-#: src/electron/main.ts:287
+#: src/electron/main.ts:286
 msgid "Release Notes"
 msgstr "Informacje o wydaniu"
 
@@ -1372,7 +1376,7 @@ msgstr "Informacje o wydaniu"
 msgid "Rename"
 msgstr "Zmień nazwę"
 
-#: src/electron/main.ts:302
+#: src/electron/main.ts:301
 msgid "Report an Issue..."
 msgstr "Zgłoś problem..."
 
@@ -1505,7 +1509,7 @@ msgstr "Zaloguj się"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Pomija dodawanie docelowego folderu do żniwiarza"
 
-#: src/electron/main.ts:376
+#: src/electron/main.ts:375
 msgid "Speech"
 msgstr "Mowa"
 
@@ -1549,7 +1553,7 @@ msgstr "Stan"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:42
 #: src/components/wallet/WalletStatusCard.tsx:11
-#: src/components/wallet/Wallets.tsx:92
+#: src/components/wallet/Wallets.tsx:93
 msgid "Status"
 msgstr "Status"
 
@@ -1838,7 +1842,7 @@ msgstr "Klucz Publiczny Użytkownika"
 msgid "VDF Sub Slot Iterations"
 msgstr ""
 
-#: src/electron/main.ts:213
+#: src/electron/main.ts:212
 msgid "View"
 msgstr "Widok"
 
@@ -1904,7 +1908,7 @@ msgstr "Oczekiwanie na synchronizację"
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:24
-#: src/components/wallet/Wallets.tsx:130
+#: src/components/wallet/Wallets.tsx:131
 msgid "Wallets"
 msgstr "Portfele"
 
@@ -1940,7 +1944,7 @@ msgstr ""
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr ""
 
-#: src/electron/main.ts:257
+#: src/electron/main.ts:256
 msgid "Window"
 msgstr "Okno"
 
@@ -1950,7 +1954,7 @@ msgstr "Bez opłat"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
-#: src/electron/main.ts:123
+#: src/electron/main.ts:122
 msgid "Yes"
 msgstr "Tak"
 
@@ -1986,32 +1990,36 @@ msgstr "Twoje połączenie pełnego węzła"
 msgid "Your Harvester Network"
 msgstr "Twoja sieć żniwiarza"
 
+#: src/components/wallet/did/DIDWallet.js:477
+#~ msgid "Your backup file was successfully created."
+#~ msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:30
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:119
 msgid "connections:"
 msgstr "połączenia:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
-#: src/components/wallet/Wallets.tsx:112
+#: src/components/wallet/Wallets.tsx:113
 msgid "height:"
 msgstr "wysokość:"
 
-#: src/components/wallet/Wallets.tsx:106
+#: src/components/wallet/Wallets.tsx:107
 msgid "not synced"
 msgstr "nie zsynchronizowane"
 
 #: src/components/wallet/WalletStatusCard.tsx:16
-#: src/components/wallet/Wallets.tsx:97
+#: src/components/wallet/Wallets.tsx:98
 msgid "status:"
 msgstr "status:"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:104
+#: src/components/wallet/Wallets.tsx:105
 msgid "synced"
 msgstr "zsynchronizowano"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
-#: src/components/wallet/Wallets.tsx:102
+#: src/components/wallet/Wallets.tsx:103
 msgid "syncing"
 msgstr "synchronizowanie"
 
